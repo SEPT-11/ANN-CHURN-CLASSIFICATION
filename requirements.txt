@@ -1,6 +1,4 @@
---extra-index-url https://download.pytorch.org/whl/cpu
---extra-index-url https://wheels.gohlke.dev/simple
-tensorflow-cpu==2.15.0
+tensorflow
 streamlit
 pandas
 numpy
