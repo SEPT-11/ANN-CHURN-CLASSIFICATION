@@ -27,18 +27,22 @@ The model is deployed with **Streamlit** for an interactive web-based experience
 - **TensorFlow / Keras**
 - **Scikit-learn**
 - **Pandas / NumPy**
-- **Matplotlib / Seaborn**
 - **Streamlit** for deployment
 
 ---
 
 ## 📂 Repository Structure
 ```bash
-.
-├── data/                # Dataset used for training
-├── model/               # Saved ANN model files
-├── notebooks/           # Jupyter notebooks for EDA & training
-├── app.py               # Streamlit app script
-├── requirements.txt     # Dependencies
-└── README.md            # Project documentation
+├── .devcontainer/ # Dev environment setup (if applicable)
+├── Churn_Modelling.csv # Raw dataset used for training
+├── Prediction.ipynb # Notebook for running predictions
+├── annprojectimplement.ipynb # Notebook covering full pipeline (EDA, training, evaluation)
+├── app.py # Streamlit application script
+├── model.h5 # Pretrained ANN model
+├── scaler.pkl # Preprocessing scaler object
+├── label_encoder_gender.pkl # Label encoder for gender
+├── one_hot_encoder_geo.pkl # One-hot encoder for geography
+├── requirements.txt # Python dependencies
+├── runtime.txt # Runtime specification (for platforms like Heroku)
+└── README.md # Project documentation (you are here)
 
